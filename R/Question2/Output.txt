@@ -1,0 +1,311 @@
+
+Call:
+lm(formula = income ~ usborn, data = eco)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-6836.5 -2591.5   250.7  1332.1 10262.6 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    68642       8739   7.855 3.19e-10 ***
+usborn        -46019       9279  -4.959 8.89e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3490 on 49 degrees of freedom
+Multiple R-squared:  0.3342,	Adjusted R-squared:  0.3206 
+F-statistic:  24.6 on 1 and 49 DF,  p-value: 8.891e-06
+
+      race fire theft  age volact involact income
+60626 10.0  6.2    29 60.4    5.3      0.0  11744
+60640 22.2  9.5    44 76.5    3.1      0.1   9323
+60613 19.6 10.5    36 73.5    4.8      1.2   9948
+60657 17.3  7.7    37 66.9    5.7      0.5  10656
+60614 24.5  8.6    53 81.4    5.9      0.7   9730
+60610 54.0 34.1    68 52.6    4.0      0.3   8231
+60611  4.9 11.0    75 42.6    7.9      0.0  21480
+60625  7.1  6.9    18 78.5    6.9      0.0  11104
+60618  5.3  7.3    31 90.1    7.6      0.4  10694
+60647 21.5 15.1    25 89.8    3.1      1.1   9631
+60622 43.1 29.1    34 82.7    1.3      1.9   7995
+60631  1.1  2.2    14 40.2   14.3      0.0  13722
+60646  1.0  5.7    11 27.9   12.1      0.0  16250
+60656  1.7  2.0    11  7.7   10.9      0.0  13686
+60630  1.6  2.5    22 63.8   10.7      0.0  12405
+60634  1.5  3.0    17 51.2   13.8      0.0  12198
+60641  1.8  5.4    27 85.1    8.9      0.0  11600
+60635  1.0  2.2     9 44.4   11.5      0.0  12765
+60639  2.5  7.2    29 84.2    8.5      0.2  11084
+60651 13.4 15.1    30 89.8    5.2      0.8  10510
+60644 59.8 16.5    40 72.7    2.7      0.8   9784
+60624 94.4 18.4    32 72.9    1.2      1.8   7342
+60612 86.2 36.2    41 63.1    0.8      1.8   6565
+60607 50.2 39.7   147 83.0    5.2      0.9   7459
+60623 74.2 18.5    22 78.3    1.8      1.9   8014
+60608 55.5 23.3    29 79.0    2.1      1.5   8177
+60616 62.3 12.2    46 48.0    3.4      0.6   8212
+60632  4.4  5.6    23 71.5    8.0      0.3  11230
+60609 46.2 21.8     4 73.1    2.6      1.3   8330
+60653 99.7 21.6    31 65.0    0.5      0.9   5583
+60615 73.5  9.0    39 75.4    2.7      0.4   8564
+60638 10.7  3.6    15 20.8    9.1      0.0  12102
+60629  1.5  5.0    32 61.8   11.6      0.0  11876
+60636 48.8 28.6    27 78.1    4.0      1.4   9742
+60621 98.9 17.4    32 68.6    1.7      2.2   7520
+60637 90.6 11.3    34 73.4    1.9      0.8   7388
+60652  1.4  3.4    17  2.0   12.9      0.0  13842
+60620 71.2 11.9    46 57.0    4.8      0.9  11040
+60619 94.1 10.5    42 55.9    6.6      0.9  10332
+60649 66.1 10.7    43 67.5    3.1      0.4  10908
+60617 36.4 10.8    34 58.0    7.8      0.9  11156
+60655  1.0  4.8    19 15.2   13.0      0.0  13323
+60643 42.5 10.4    25 40.8   10.2      0.5  12960
+60628 35.1 15.6    28 57.8    7.5      1.0  11260
+60627 47.4  7.0     3 11.4    7.7      0.2  10080
+60633 34.0  7.1    23 49.2   11.6      0.3  11428
+60645  3.1  4.9    27 46.6   10.9      0.0  13731
+      race fire theft  age involact income
+60626 10.0  6.2    29 60.4      0.0 11.744
+60640 22.2  9.5    44 76.5      0.1  9.323
+60613 19.6 10.5    36 73.5      1.2  9.948
+60657 17.3  7.7    37 66.9      0.5 10.656
+60614 24.5  8.6    53 81.4      0.7  9.730
+60610 54.0 34.1    68 52.6      0.3  8.231
+60611  4.9 11.0    75 42.6      0.0 21.480
+60625  7.1  6.9    18 78.5      0.0 11.104
+60618  5.3  7.3    31 90.1      0.4 10.694
+60647 21.5 15.1    25 89.8      1.1  9.631
+60622 43.1 29.1    34 82.7      1.9  7.995
+60631  1.1  2.2    14 40.2      0.0 13.722
+60646  1.0  5.7    11 27.9      0.0 16.250
+60656  1.7  2.0    11  7.7      0.0 13.686
+60630  1.6  2.5    22 63.8      0.0 12.405
+60634  1.5  3.0    17 51.2      0.0 12.198
+60641  1.8  5.4    27 85.1      0.0 11.600
+60635  1.0  2.2     9 44.4      0.0 12.765
+60639  2.5  7.2    29 84.2      0.2 11.084
+60651 13.4 15.1    30 89.8      0.8 10.510
+60644 59.8 16.5    40 72.7      0.8  9.784
+60624 94.4 18.4    32 72.9      1.8  7.342
+60612 86.2 36.2    41 63.1      1.8  6.565
+60607 50.2 39.7   147 83.0      0.9  7.459
+60623 74.2 18.5    22 78.3      1.9  8.014
+60608 55.5 23.3    29 79.0      1.5  8.177
+60616 62.3 12.2    46 48.0      0.6  8.212
+60632  4.4  5.6    23 71.5      0.3 11.230
+60609 46.2 21.8     4 73.1      1.3  8.330
+60653 99.7 21.6    31 65.0      0.9  5.583
+60615 73.5  9.0    39 75.4      0.4  8.564
+60638 10.7  3.6    15 20.8      0.0 12.102
+60629  1.5  5.0    32 61.8      0.0 11.876
+60636 48.8 28.6    27 78.1      1.4  9.742
+60621 98.9 17.4    32 68.6      2.2  7.520
+60637 90.6 11.3    34 73.4      0.8  7.388
+60652  1.4  3.4    17  2.0      0.0 13.842
+60620 71.2 11.9    46 57.0      0.9 11.040
+60619 94.1 10.5    42 55.9      0.9 10.332
+60649 66.1 10.7    43 67.5      0.4 10.908
+60617 36.4 10.8    34 58.0      0.9 11.156
+60655  1.0  4.8    19 15.2      0.0 13.323
+60643 42.5 10.4    25 40.8      0.5 12.960
+60628 35.1 15.6    28 57.8      1.0 11.260
+60627 47.4  7.0     3 11.4      0.2 10.080
+60633 34.0  7.1    23 49.2      0.3 11.428
+60645  3.1  4.9    27 46.6      0.0 13.731
+      race            fire           theft             age           involact          income      
+ Min.   : 1.00   Min.   : 2.00   Min.   :  3.00   Min.   : 2.00   Min.   :0.0000   Min.   : 5.583  
+ 1st Qu.: 3.75   1st Qu.: 5.65   1st Qu.: 22.00   1st Qu.:48.60   1st Qu.:0.0000   1st Qu.: 8.447  
+ Median :24.50   Median :10.40   Median : 29.00   Median :65.00   Median :0.4000   Median :10.694  
+ Mean   :34.99   Mean   :12.28   Mean   : 32.36   Mean   :60.33   Mean   :0.6149   Mean   :10.696  
+ 3rd Qu.:57.65   3rd Qu.:16.05   3rd Qu.: 38.00   3rd Qu.:77.30   3rd Qu.:0.9000   3rd Qu.:11.989  
+ Max.   :99.70   Max.   :39.70   Max.   :147.00   Max.   :90.10   Max.   :2.2000   Max.   :21.480  
+
+Call:
+lm(formula = involact ~ race, data = ch)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-0.7496 -0.2479 -0.1487  0.3129  1.1724 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 0.129218   0.096611   1.338    0.188    
+race        0.013882   0.002031   6.836 1.78e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4488 on 45 degrees of freedom
+Multiple R-squared:  0.5094,	Adjusted R-squared:  0.4985 
+F-statistic: 46.73 on 1 and 45 DF,  p-value: 1.784e-08
+
+[1] -3.529468
+      race fire theft  age involact income
+60610 54.0 34.1    68 52.6      0.3  8.231
+60607 50.2 39.7   147 83.0      0.9  7.459
+
+Call:
+lm(formula = involact ~ race + fire + theft + age + log(income), 
+    data = ch, subset = (1:47)[-c(6, 24)])
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.63445 -0.21208 -0.02757  0.15580  0.83307 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -0.576737   1.080046  -0.534   0.5964    
+race         0.007053   0.002696   2.616   0.0126 *  
+fire         0.049647   0.008570   5.793    1e-06 ***
+theft       -0.006434   0.004349  -1.479   0.1471    
+age          0.005171   0.002895   1.786   0.0818 .  
+log(income)  0.115703   0.401113   0.288   0.7745    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3032 on 39 degrees of freedom
+Multiple R-squared:  0.8041,	Adjusted R-squared:  0.779 
+F-statistic: 32.01 on 5 and 39 DF,  p-value: 8.192e-13
+
+Analysis of Variance Table
+
+Model 1: involact ~ race + fire + theft + age + log(income)
+Model 2: involact ~ race + poly(fire, 2) + poly(theft, 2) + poly(age, 
+    2) + poly(log(income), 2)
+  Res.Df    RSS Df Sum of Sq      F Pr(>F)
+1     39 3.5853                           
+2     35 3.2037  4   0.38165 1.0424 0.3994
+
+Call:
+lm(formula = involact ~ race + fire + theft + age, data = ch, 
+    subset = (1:47)[-c(6, 24)])
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-0.6634 -0.2159 -0.0303  0.1665  0.8368 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -0.267870   0.139668  -1.918  0.06228 .  
+race         0.006489   0.001837   3.532  0.00105 ** 
+fire         0.049057   0.008226   5.963 5.32e-07 ***
+theft       -0.005809   0.003728  -1.558  0.12709    
+age          0.004688   0.002334   2.009  0.05136 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2997 on 40 degrees of freedom
+Multiple R-squared:  0.8037,	Adjusted R-squared:  0.784 
+F-statistic: 40.93 on 4 and 40 DF,  p-value: 1.238e-13
+
+
+Call:
+lm(formula = involact ~ race + fire + log(income), data = ch, 
+    subset = (1:47)[-c(6, 24)])
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.75148 -0.19280 -0.00621  0.11072  0.87411 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.753256   0.835880   0.901   0.3728    
+race         0.004206   0.002276   1.848   0.0718 .  
+fire         0.051022   0.008450   6.038 3.82e-07 ***
+log(income) -0.362382   0.319162  -1.135   0.2628    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3092 on 41 degrees of freedom
+Multiple R-squared:  0.7858,	Adjusted R-squared:  0.7701 
+F-statistic: 50.14 on 3 and 41 DF,  p-value: 8.873e-14
+
+
+Call:
+lm(formula = involact ~ race + fire, data = ch, subset = (1:47)[-c(6, 
+    24)])
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.65891 -0.20471 -0.01654  0.13807  0.87525 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -0.191325   0.081517  -2.347  0.02371 *  
+race         0.005712   0.001856   3.078  0.00366 ** 
+fire         0.054664   0.007845   6.968 1.61e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3103 on 42 degrees of freedom
+Multiple R-squared:  0.7791,	Adjusted R-squared:  0.7686 
+F-statistic: 74.05 on 2 and 42 DF,  p-value: 1.696e-14
+
+
+Call:
+lm(formula = involact ~ race + fire + theft + age, data = ch)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.87108 -0.14830 -0.01961  0.19968  0.81638 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -0.243118   0.145054  -1.676 0.101158    
+race         0.008104   0.001886   4.297 0.000100 ***
+fire         0.036646   0.007916   4.629 3.51e-05 ***
+theft       -0.009592   0.002690  -3.566 0.000921 ***
+age          0.007210   0.002408   2.994 0.004595 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3335 on 42 degrees of freedom
+Multiple R-squared:  0.7472,	Adjusted R-squared:  0.7231 
+F-statistic: 31.03 on 4 and 42 DF,  p-value: 4.799e-12
+
+
+Call:
+lm(formula = involact ~ race + fire + theft + age, data = ch, 
+    subset = (chiczip == "s"))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.62350 -0.17853 -0.03395  0.13479  0.87311 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)  
+(Intercept) -0.234409   0.237741  -0.986   0.3380  
+race         0.005949   0.003279   1.814   0.0873 .
+fire         0.048390   0.016886   2.866   0.0107 *
+theft       -0.006643   0.008444  -0.787   0.4423  
+age          0.005008   0.005046   0.993   0.3348  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3508 on 17 degrees of freedom
+Multiple R-squared:  0.7434,	Adjusted R-squared:  0.683 
+F-statistic: 12.31 on 4 and 17 DF,  p-value: 6.969e-05
+
+
+Call:
+lm(formula = involact ~ race + fire + theft + age, data = ch, 
+    subset = (chiczip == "n"))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.76422 -0.14994 -0.00813  0.15510  0.69974 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)  
+(Intercept) -0.318573   0.227024  -1.403   0.1759  
+race         0.012562   0.004478   2.806   0.0109 *
+fire         0.023129   0.013976   1.655   0.1135  
+theft       -0.007582   0.003664  -2.069   0.0517 .
+age          0.008200   0.003461   2.369   0.0280 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3429 on 20 degrees of freedom
+Multiple R-squared:  0.7555,	Adjusted R-squared:  0.7067 
+F-statistic: 15.45 on 4 and 20 DF,  p-value: 6.519e-06
+
